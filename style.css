@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo
+{
+    font-size: 45px;
+    position: relative;
+    left: 5%;
+    color: darkblue;
+    font-weight: bold;
+    Line-height: 70px;
+}
+
+ul
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+
+}
+
+ul li
+{
+    display:inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color-scheme: darkblue;
+    font-size: 18px;
+}
+
+.main_img
+{
+    width:100%;
+    height: 300px;
+
+}
+
+.section1
+{
+    padding-top: 70px;
+}
+
+.welcome_img
+{
+    width:80%;
+    height: 200px;
+    float: left;
+}
+
+.container
+{
+    padding-top:50px;
+}
+
+.pic
+{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.corr
+{
+    width: 100%;
+    height: 20px;
+    font-size: 25px;
+}
+
+.label_text
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.input_deg
+{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid blue;
+
+}
+
+.sgn_int
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#submit
+{
+    position: relative;
+    width: 27%;
+    left: 3%;
+    
+}
+
+.add
+{
+    padding-top: 25px;
+    padding-top: 25px;
+}
+
+.form_deg
+{
+    padding-top: 200px;
+
+}
+.label_deg
+{
+    display: inline-block;
+    color: black;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login_form
+{
+    background-color: rgba(19, 28, 31, 0.596);
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.title_deg
+{
+    background-color:rgb(205, 222, 255);
+    counter-reset: rgba(17, 0, 255, 0.545);
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.body_deg
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
